@@ -1,3 +1,7 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lobster', cursive;
+}
+
 .menu{
     width: 100%;
     height: 100px;
@@ -32,9 +36,7 @@
 
 }
 
-.enlaces ul li a::after{
-    content: "*";
-}
+
 
 
 .iconos ul li i,
@@ -51,9 +53,9 @@
 
 /* imagen principal*/
 .principal{
-    background-image: url(../imagenes/c82f025aa0bfb349db4ddc34c0eb70fd.jpg);
+    background-image: url(../imagenes/salpicaduras-leche-sobre-fondo-azul-splash-productos-lacteos-naturales-yogur-o-crema-ilustracion-realista_221648-128.jpg);
     width: 100%;
-    height: 800px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
@@ -95,3 +97,120 @@
     margin-right: 200px;
 }
 
+.productos,
+.servicios{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-pro h2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-pro h2,
+.titulo-ser h2{
+    font-size: 50px;
+    color: red;
+}
+ /*prodcutos*/
+
+ .con-productos{
+    width: 64%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:  0 auto;
+ }
+
+ .tarjeta{
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+ }
+ 
+ .tarjeta .con-texto h3{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ .tarjeta .con-texto p{
+    font-size: 20px;
+    text-align: center;
+ }
+
+ .tarjeta .botones{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .tarjeta .botones span{
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ .tarjeta .botones a{
+    padding: 7px 12px;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+ }
+
+ .tarjeta img{
+    width: 100%;
+    height: auto;
+ }
+
+ /*servicios*/
+ .con-servicios{
+    width: 100%;
+    height: auto;
+ }
+
+ .servicio-1,
+ .servicio-2{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+ }
+
+ .servicio-1 img,
+ .servicio-2 img{
+    width: 50%;
+ }
+
+ .servicio-1 .con-texto,
+ .servicio-2 .con-texto{
+    width: 50%;
+    margin-left: 50px;
+ }
+
+ .servicio-1 .con-texto h3,
+ .servicio-2 .con-texto h3{
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+ }
+
+ .servicio-1 .con-texto p,
+ .servicio-1 .con-texto ul,
+ .servicio-2 .con-texto ul,
+ .servicio-2 .con-texto p{
+    font-size: 20px;
+    color: rgb(red, green, blue)
+ }
